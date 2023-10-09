@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock & Share</title>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+</head>
+<body>
+    <ion-app>
+        <ion-header>
+            <ion-toolbar color="success">
+                <ion-title>Stock & Share</ion-title>
+                <ion-buttons slot="end">
+                    <ion-button href="/login">Se connecter</ion-button>
+                    <ion-button href="/register">S'inscrire</ion-button>
+                </ion-buttons>
+            </ion-toolbar>
+        </ion-header>
+        <ion-content>
+            <ion-card>
+                <ion-card-header>
+                    <ion-card-title>Bienvenue sur Stock & Share</ion-card-title>
+                </ion-card-header>
+                <ion-card-content class="ion-padding">
+                    <p>Nous facilitons la location d'espaces inutilisés par des particuliers à d'autres particuliers.</p>
+                    <p>Ces espaces pourraient inclure des places de parking, des caves, des garages, des pièces non utilisées, ou même des salles.</p>
+                </ion-card-content>
+            </ion-card>
+        </ion-content>
+        <ion-content>
+            <ion-card-header>
+                <ion-card-title>Louez votre emplacement</ion-card-title>
+            </ion-card-header>
+        <ion-card-content>
+            <ion-item>
+                <ion-input label="Localité" placeholder="Indiquez votre localité"></ion-input>
+                <ion-input type ="texe"></ion-input> 
+              </ion-item>  
+
+              <ion-item>
+                <ion-input label="Localité" placeholder="Indiquez votre localité"></ion-input>
+                <ion-input type ="texe"></ion-input> 
+              </ion-item>  
+        </ion-card-content>
+
+
+
+
+    </ion-app>
+</body>
+</html>
